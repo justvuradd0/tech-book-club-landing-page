@@ -1,0 +1,85 @@
+@font-face {
+  font-family: "Martian Mono";
+  src: url("./assets/fonts/martian-mono/MartianMono-VariableFont.woff2")
+    format("woff2");
+  font-weight: 100 900;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/inter/Inter-VariableFont.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+/* .regular { font-weight: 400; } */
+/* .semiBold  { font-weight: 600; } */
+/* .bold  { font-weight: 700; } */
+/* Text Preset 1 - Martian Mono, Bold */
+/* Text Preset 1 - Martian Mono, Bold */
+.text-preset-1 {
+    font: 700 3.875rem/120% "Martian Mono", monospace; /* 62px */
+    letter-spacing: -0.125rem; /* -2px */
+}
+
+/* Text Preset 1 (Mobile) */
+@media (max-width: 768px) {
+    .text-preset-1 {
+        font-size: 2.375rem; /* 38px */
+    }
+}
+
+/* Text Preset 2 - Martian Mono, SemiBold */
+.text-preset-2 {
+    font: 600 3.125rem/130% "Martian Mono", monospace; /* 50px */
+    letter-spacing: -0.125rem; /* -2px */
+}
+
+/* Text Preset 2 (Mobile) */
+@media (max-width: 768px) {
+    .text-preset-2 {
+        font-size: 2.125rem; /* 34px */
+    }
+}
+
+/* Text Preset 3 - Martian Mono, SemiBold */
+.text-preset-3 {
+    font: 600 2.125rem/130% "Martian Mono", monospace; /* 34px */
+    letter-spacing: -0.0625rem; /* -1px */
+}
+
+/* Text Preset 4 - Martian Mono, SemiBold */
+.text-preset-4 {
+    font: 600 1.5rem/130% "Martian Mono", monospace; /* 24px */
+    letter-spacing: -0.0625rem; /* -1px */
+}
+
+/* Text Preset 4 (Regular) - Martian Mono, Regular */
+.text-preset-4-regular {
+    font: 400 1.5rem/130% "Martian Mono", monospace; /* 24px */
+    letter-spacing: -0.0625rem; /* -1px */
+}
+
+/* Text Preset 5 - Inter, Regular */
+.text-preset-5 {
+    font: 400 1.25rem/140% "Inter", sans-serif; /* 20px */
+    letter-spacing: -0.03125rem; /* -0.5px */
+}
+
+/* Text Preset 5 (SemiBold) - Inter, SemiBold */
+.text-preset-5-semibold {
+    font: 600 1.25rem/140% "Inter", sans-serif; /* 20px */
+    letter-spacing: -0.03125rem; /* -0.5px */
+}
+
+/* Text Preset 6 - Martian Mono, SemiBold */
+.text-preset-6 {
+    font: 600 1.125rem/135% "Martian Mono", monospace; /* 18px */
+    letter-spacing: -0.0625rem; /* -1px */
+}
+
+/* Text Preset 7 - Martian Mono, Regular */
+.text-preset-7 {
+    font: 400 0.875rem/120% "Martian Mono", monospace; /* 14px */
+    letter-spacing: -0.0625rem; /* -1px */
+}
